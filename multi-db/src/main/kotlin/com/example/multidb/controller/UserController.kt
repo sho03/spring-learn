@@ -1,6 +1,6 @@
 package com.example.multidb.controller
 
-import com.example.multidb.domain.User
+import com.example.multidb.domain.user.User
 import com.example.multidb.service.UserService
 import org.springframework.web.bind.annotation.GetMapping
 import org.springframework.web.bind.annotation.PostMapping

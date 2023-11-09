@@ -1,4 +1,4 @@
-package com.example.multidb.domain
+package com.example.multidb.domain.user
 
 interface UserRepository {
 

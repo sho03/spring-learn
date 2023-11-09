@@ -1,0 +1,13 @@
+spring:
+    datasource:
+        hikari:
+            primary:
+                password: password
+                jdbc-url: jdbc:mysql://localhost:3306/primary_db?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+                username: my_user
+                pool-name: 'primary'
+            secondary:
+                password: password
+                jdbc-url: jdbc:mysql://localhost:3307/secondary_db?allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC
+                username: my_user
+                pool-name: 'secondary'

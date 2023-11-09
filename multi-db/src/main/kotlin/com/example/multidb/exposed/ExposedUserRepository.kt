@@ -1,7 +1,7 @@
 package com.example.multidb.exposed
 
-import com.example.multidb.domain.User
-import com.example.multidb.domain.UserRepository
+import com.example.multidb.domain.user.User
+import com.example.multidb.domain.user.UserRepository
 import com.example.multidb.exposed.table.UserTable
 import org.jetbrains.exposed.sql.insert
 import org.jetbrains.exposed.sql.selectAll

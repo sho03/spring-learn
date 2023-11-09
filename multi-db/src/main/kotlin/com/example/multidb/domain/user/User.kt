@@ -1,4 +1,4 @@
-package com.example.multidb.domain
+package com.example.multidb.domain.user
 
 data class User(
     val name: String,
